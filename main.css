@@ -1,0 +1,58 @@
+body {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, sans-serif;
+    background-color: #bbf;
+    padding-left: 10px;
+}
+
+header {
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-top: 1px;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+hr {
+    border-style: solid;
+    border-color: #f9b;
+    border-width: 2px;
+}
+
+.courseName {
+    color: #77a;
+}
+
+.favouritePhrase {
+    color: #28f4a6;
+    background-color: #a81f7a;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddf;
+    border-bottom: 1px solid #77a;
+    border-top: 1px solid #77a;
+}
+
+nav a:visited {
+    color: orange;
+}
