@@ -1,0 +1,55 @@
+body {
+    background-color: #FFEBCD;
+    width: 980px;
+}
+
+.page_layout {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#banner {
+    width: 25%;
+}
+
+.table_navigation {
+  vertical-align: top;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#products {
+  background-color: #F0F8FF;
+}
+
+#products caption {
+  background-color: #0FF;
+  font-size: 2em;
+  padding: 0.4em 0;
+}
+
+#products th {
+  background-color: #0FF;
+  padding: 0.3em 0.2em;
+}
+
+.products_image {
+  text-align: center;
+  width: 15%;
+}
+
+.products_feature_list {
+  list-style-image: url("images/aball.gif");
+}
+
+.products_prices {
+  border: 4px dashed #bbb;
+}
+
+.products_prices tr:nth-of-type(even){
+  background-color: #B0B4BB;
+}
+
+.table_footer {
+  text-align: center;
+}
