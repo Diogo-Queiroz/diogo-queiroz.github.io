@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+body {
+  font-family: sans-serif;
+  color: #666;
+  background-image: url('images/trilliumgradient.png');
+}
+#page_layout {
+  width: 780px;
+  margin: 0px auto;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+header {
+  background-image: url('images/trilliumbanner.jpg');
+  background-repeat: no-repeat;
+  background-color: #D5ECB3;
+  height: 90px;
+}
+h2 {
+  background-image: url('images/trilliumbg.gif');
+  background-repeat: no-repeat;
+  text-indent: 30px;
+  background-color: #D4EEB4;
+  padding: 8px 0;
+  background-position: left center; 
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+ul {
+  list-style-image: url('images/trillium-item.gif');
+}
+ul li {
+  font-family: monospace;
+  letter-spacing: 3px;
+}
+footer div a:hover {
+  text-decoration: wavy underline overline;
+}
+footer {
+  color: #FFF;
+  padding: 4px;
+  background-color: #5C743D;
+  height: 80px;
+  background-image: url('images/trilliumfoot.gif');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+figure {
+  text-align: center;
+}
+figcaption {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+.lorem {
+  color: #fff;
+}
+.lorem p {
+  line-height: 200%;
+  text-align: justify;
+  text-transform: capitalize;
+}
